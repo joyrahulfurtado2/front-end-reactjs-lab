@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for expense tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json --port 3001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joy Rahul Furtado",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
